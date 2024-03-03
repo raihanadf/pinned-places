@@ -7,6 +7,10 @@ android {
     namespace = "com.example.pinnedplaces"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.example.pinnedplaces"
         minSdk = 24
@@ -37,6 +41,7 @@ android {
 
 dependencies {
 
+    implementation (libs.androidx.core.splashscreen)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)

@@ -6,4 +6,11 @@
     </style>
 
     <style name="Theme.PinnedPlaces" parent="Base.Theme.PinnedPlaces" />
+
+    <style name="Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/black</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_location</item>
+        <item name="postSplashScreenTheme">@style/Theme.PinnedPlaces</item>
+    </style>
+
 </resources>
