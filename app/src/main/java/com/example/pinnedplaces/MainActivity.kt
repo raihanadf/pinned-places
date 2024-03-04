@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun createShareButton() {
-        binding.shareButton.setOnClickListener {
+        binding.actionShare.setOnClickListener {
             val sendIntent = Intent().apply {
                 action = Intent.ACTION_SEND
                 putExtra(
@@ -59,7 +59,7 @@ class MainActivity : AppCompatActivity() {
 
                 R.id.grid_menu -> {
                     binding.rvLocation.layoutManager =
-                        GridLayoutManager(this, 3)
+                        GridLayoutManager(this, 2)
                     true
                 }
 

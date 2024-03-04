@@ -1,10 +1,11 @@
 <resources>
     <string name="app_name">Pinned Places</string>
+
     <string name="placeholder_name">Aku cinta bunga</string>
     <string name="placeholder_second">Secondary Text</string>
     <string name="nama_dicoding">Raihan Achmad</string>
     <string name="email_dicoding">17radf@gmail.com</string>
-    <string name="bio_dicoding">I created this app for no particular reason, but there are actually 2 reasons. First, for an Android beginner submission. And second, it is a place where I\'ve been through.</string>
+    <string name="bio_dicoding">I created this app for 2 reasons. First, for an Android beginner submission. And second, it is a place where I\'ve been through.</string>
     <string name="share_button">Share Button</string>
     <string name="placeholder_support">Placeholder Support</string>
     <string name="placeholder_detail">Placeholder Detail</string>
@@ -13,35 +14,70 @@
     <string-array name="location_image_list">
         <item>https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Slamet_Riyadi_Statue_in_Surakarta.jpg/432px-Slamet_Riyadi_Statue_in_Surakarta.jpg</item>
         <item>https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Yogyakarta_Indonesia_Tugu-Yogyakarta-02.jpg/402px-Yogyakarta_Indonesia_Tugu-Yogyakarta-02.jpg</item>
-        <item>https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Danau_Belerang_Ijen.jpg/420px-Danau_Belerang_Ijen.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Wonderfull_Nusa_Penida.jpg/330px-Wonderfull_Nusa_Penida.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Gigi_hiu_%281%29.jpg/231px-Gigi_hiu_%281%29.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Deras-TreeHouse.JPG/242px-Deras-TreeHouse.JPG</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Dolphin_show_-_ancol_%28jakarta%2C_indonesia_1995%29_%283%29.jpg/330px-Dolphin_show_-_ancol_%28jakarta%2C_indonesia_1995%29_%283%29.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/COLLECTIE_TROPENMUSEUM_Straatgezicht_Bandoeng_TMnr_10014700.jpg/330px-COLLECTIE_TROPENMUSEUM_Straatgezicht_Bandoeng_TMnr_10014700.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Surabaya_City_Hall_by_Yamin_Nathaniel.jpg/450px-Surabaya_City_Hall_by_Yamin_Nathaniel.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Stasiun_Kediri.jpg/432px-Stasiun_Kediri.jpg</item>
     </string-array>
 
     <!--    location title name -->
     <string-array name="location_title_list">
-        <item>Solo</item>
-        <item>Jogja</item>
-        <item>Audi R8</item>
+        <item>Surakarta</item>
+        <item>Yogyakarta</item>
+        <item>Gunung Ijen</item>
+        <item>Bali</item>
+        <item>Lampung</item>
+        <item>Bring In House</item>
+        <item>Taman Impian Jaya Ancol</item>
+        <item>Kota Bandung</item>
+        <item>Kota Surabaya</item>
+        <item>Kota Kediri</item>
     </string-array>
 
     <!--    second text for the location-->
     <string-array name="location_second_list">
-        <item>bolobolo</item>
-        <item>jir takut</item>
-        <item>dayummm</item>
+        <item>Salah satu kota di provinsi Jawa Tengah, Indonesia, dengan luas 44,04 km2</item>
+        <item>Kota yang Kaya akan Budaya dan Sejarah.</item>
+        <item>Pesona Api Biru dan Keindahan Alam.</item>
+        <item>Is a province of Indonesia and the westernmost of the Lesser Sunda Islands</item>
+        <item>Sebuah provinsi di bagian ujung selatan Pulau Sumatra, Indonesia</item>
+        <item>Terletak di Yogyakarta, Bring In House Yogyakarta menawarkan WiFi gratis, dan Anda dapat menikmati taman, lounge bersama, serta teras.</item>
+        <item>Sebuah taman hiburan di Jakarta Utara, Indonesia. Taman ini dioperasikan oleh PT Pembangunan Jaya Ancol Tbk</item>
+        <item>Adalah ibu kota yang sekaligus menjadi pusat pemerintahan dan perekonomian dari provinsi Jawa Barat, Indonesia</item>
+        <item>Adalah ibu kota Provinsi Jawa Timur yang menjadi pusat pemerintahan dan perekonomian dari Provinsi Jawa Timur sekaligus kota terbesar di provinsi tersebut</item>
+        <item>Kota tertua yang ada di Jawa Timur. Kota Kediri memiliki luas wilayah 63,40 km² .</item>
     </string-array>
 
     <!--    support text for list-->
     <string-array name="location_support_list">
-        <item>mamah aku takut</item>
-        <item>lmao kang lorem ipsum dolor sit jamet met met lorem dolor jaran</item>
-        <item>so smexy</item>
+        <item>Kota ini merupakan kota terbesar ketiga di pulau Jawa bagian selatan setelah Kota Malang, Jawa Timur dan Kota Bandung, Jawa Barat menurut jumlah penduduk. Sisi Timur kota ini dilewati sungai yang terabadikan dalam salah satu lagu keroncong, Bengawan Solo. Kota ini termasuk dalam kawasan Solo Raya, sebagai kota utama. </item>
+        <item>Jelajahi tradisi dan warisan budaya Yogyakarta yang mempesona.</item>
+        <item>Salah satu fenomena alam yang paling terkenal dari Gunung Ijen adalah blue fire (api biru) di dalam kawah yang terletak di puncak gunung tersebut.</item>
+        <item>Bali is the only Hindu-majority province in Indonesia, with 86.9% of the population adhering to Balinese Hinduism.</item>
+        <item>Provinsi ini memiliki dua kota, yaitu Bandar Lampung dan Metro, serta 13 kabupaten</item>
+        <item>This is where we (secret) met</item>
+        <item>Kawasan Ancol sebelumnya merupakan kawasan perumahan mewah model villa yang dimiliki orang Belanda pada rentang waktu abad ke-18 hingga abad ke-19. Namun kawasan perumahan mewah tersebut terbengkalai pada akhir abad ke-19 karena cuaca yang tidak bersahabat dan sumber air yang menjadi asin karena letaknya di pinggir laut. Pada awal abad ke-20, lahan perumahan mewah yang terbengkalai tersebut diubah menjadi kawasan budidaya tiram hingga diubah menjadi rencana kawasan wisata terpadu pada tahun 1966.</item>
+        <item>Kota Bandung juga merupakan kota terbesar keempat di Indonesia, setelah Jakarta, Surabaya, dan Medan. Bandung menjadi kota terpadat kedua di Indonesia setelah Jakarta dengan kepadatan mencapai 15.051 jiwa/km2. Terletak 141 km di sebelah tenggara Jakarta, 363 km di sebelah barat laut Semarang, 400 km di sebelah barat Yogyakarta, 675 km (via Semarang) &amp; 765 km (via Yogyakarta) di sebelah barat Surabaya. Bandung merupakan kota terbesar di bagian selatan pulau Jawa. Pada pertengahan tahun 2023, jumlah penduduk kota Bandung sebanyak 2.555.187 orang.</item>
+        <item>Surabaya juga merupakan sebuah kota yang terletak di Provinsi Jawa Timur, Indonesia. Surabaya merupakan kota terbesar kedua di Indonesia setelah Kota Jakarta. Kota ini terletak 800 km sebelah timur Jakarta, atau 435 km sebelah barat laut Denpasar, Bali. Letak kota ini berada di pantai utara Pulau Jawa bagian timur yang berhadapan dengan Selat Madura serta Laut Jawa. </item>
+        <item>Dan seluruh wilayahnya merupakan enklave dari Kabupaten Kediri. Kota Kediri terbelah oleh Sungai Brantas yang membujur dari Selatan ke Utara sepanjang 7 kilometer. Penduduk kota ini berjumlah 289.418 jiwa, berdasarkan data Badan Pusat Statistik Kota Kediri tahun 2023.</item>
     </string-array>
 
     <!--    detail location for the list-->
     <string-array name="location_detail_list">
-        <item>disini aku ketemu sama bunga</item>
-        <item>mamah juga takut</item>
-        <item>disini aku ketemu sama bunga</item>
+        <item>"Sala" adalah satu dari tiga dusun yang dipilih oleh Sri Susuhunan Paku Buwana II atas saran dari Tumenggung Hanggawangsa, Tumenggung Mangkuyudha, serta komandan pasukan Belanda, J.A.B. van Hohendorff, ketika akan mendirikan istana baru, setelah perang suksesi Mataram Islam terjadi di Kartasura. Seiring waktu, karena penyebutan "Sala" dianggap sulit oleh orang Belanda, nama ini berubah menjadi "Solo". Nama "Surakarta" diberikan sebagai nama "wisuda" bagi Keraton Surakarta, pusat pemerintahan baru Kasultanan Mataram Islam di Desa Sala. Pada masa sekarang, nama Surakarta digunakan dalam situasi formal-pemerintahan, sedangkan nama Sala/Solo lebih merujuk kepada penyebutan umum yang dilatarbelakangi oleh aspek kultural. Kata Sura dalam Bahasa Jawa berarti "keberanian" dan karta berarti "makmur"; dengan harapan bahwa Surakarta menjadi tempat dimana penghuninya adalah orang-orang yang selalu berani berjuang untuk kebaikan serta kemakmuran negara dan bangsa. Dapat pula dikatakan bahwa nama Surakarta merupakan permainan kata dari Kartasura. Kata sala, nama yang dipakai untuk desa tempat istana baru dibangun, adalah nama pohon suci asal India, yaitu pohon sala (Shorea robusta).</item>
+        <item>Menyelami Yogyakarta: dari Candi Prambanan yang megah, Candi Borobudur yang penuh misteri, hingga Jalan Malioboro yang ramai. Nikmati kesenian tradisional seperti wayang dan batik, serta ragam kuliner lezat, dari gudeg hingga kopi Joss.</item>
+        <item>Kawah Ijen adalah sebuah danau kawah yang bersifat asam yang berada di puncak Gunung Ijen dengan kedalaman danau 200 meter dan luas kawah mencapai 5.466 Hektar. Danau kawah Ijen dikenal merupakan danau air asam kuat terbesar di dunia. Kawah Ijen berada dalam wilayah Cagar Alam Taman Wisata Ijen Kabupaten Bondowoso dan Kabupaten Banyuwangi, Jawa Timur. Fenomena eternal blue fire atau api biru abadi berada di dalam kawah Ijen, dan pemandangan alami ini hanya terjadi di dua tempat di dunia yaitu Etiopia (gunung Dallol) dan Ijen.</item>
+        <item>Balinese culture was strongly influenced by Indian, Chinese, and particularly Hindu culture, beginning around the 1st century AD. The name Bali dwipa ("Bali island") has been discovered from various inscriptions, including the Blanjong pillar inscription written by Sri Kesari Warmadewa in 914 AD and mentioning Walidwipa. It was during this time that the people developed their complex irrigation system subak to grow rice in wet-field cultivation. Some religious and cultural traditions still practised today can be traced to this period. The Hindu-Buddhist Majapahit Empire (1293–1520 AD) on eastern Java founded a Balinese colony in 1343. The uncle of Hayam Wuruk is mentioned in the charters of 1384–86. Mass Javanese immigration to Bali occurred in the next century when the Majapahit Empire fell in 1520.</item>
+        <item>Provinsi Lampung lahir pada tanggal 18 Maret 1964 dengan ditetapkannya Peraturan Pemerintah Nomor 3/1964 yang kemudian menjadi Undang-Undang Nomor 14 tahun 1964. Sebelum itu Provinsi Lampung merupakan keresidenan yang tergabung dengan Provinsi Sumatera Selatan. Kendatipun Provinsi Lampung sebelum tanggal 18 Maret 1964 tersebut secara administratif masih merupakan bagian dari Provinsi Sumatera Selatan, namun daerah ini jauh sebelum Indonesia merdeka memang telah menunjukkan potensi yang sangat besar serta corak warna kebudayaan tersendiri yang dapat menambah khazanah adat budaya di Nusantara. Oleh karenanya, pada zaman VOC didapat dari berbagai sumber bahwasanya Vereenigde Oostindische Compagnie (Persatuan Perusahaan Hindia Timur) yang berada di bawah pemerintahan Belanda pada tahun 1800 selama abad ke-19 hingga abad ke-20, Hindia Belanda adalah salah satu koloni Eropa yang paling berharga di bawah kekuasaan Imperium Belanda. Tatanan sosial kolonial didasarkan pada struktur rasial dan sosial yang kaku dengan para elite Belanda yang tinggi terpisah akan tetapi tetap berhubungan dengan penduduk pribumi yang dijajah oleh mereka, sedangkan istilah Indonesia digunakan untuk lokasi geografis setelah tahun 1880 Masehi, nama Hindia Belanda tercatat dalam dokumen VOC pada awal tahun 1620 Masehi. Daerah Lampung sendiri tidak terlepas dari incaran penjajahan Belanda.</item>
+        <item>Keraton Yogyakarta berjarak 2,8 km dari Bring In House Yogyakarta, sementara Museum Sonobudoyo terletak sejauh 3,1 km. Bandara terdekat adalah Bandara Internasional Adisutjipto, 10 km dari Bring In House Yogyakarta.</item>
+        <item>Taman Impian Jaya Ancol meliputi kawasan pariwisata (rekreasi dan resor) dan kawasan penunjang (hiburan, konvensi dan belanja), dengan luas kawasan pariwisata mencapai 552 hektar. </item>
+        <item>Bandung merupakan bagian dari Cekungan Bandung (Bandung Raya), kawasan metropolitan terbesar ketiga di Indonesia setelah Jabodetabek dan Gerbangkertosusila. Kota Bandung berbatasan langsung dengan Cimahi dan Kabupaten Bandung Barat di sisi barat dan utara; Kabupaten Bandung di sisi timur dan selatan. Kota ini tercatat dalam berbagai sejarah penting yang pernah terjadi di Indonesia, salah satunya sebagai tempat berdirinya sebuah perguruan tinggi teknik pertama di Indonesia (Technische Hoogeschool te Bandoeng–TH Bandung, sekarang Institut Teknologi Bandung–ITB).</item>
+        <item>Surabaya memiliki luas sekitar ±335,28 km², dan 3.000.076 jiwa penduduk pada pertengahan tahun 2023.  Daerah megalopolitan Surabaya yang berpenduduk sekitar 10 juta jiwa, adalah kawasan metropolitan terbesar kedua di Indonesia setelah Jabodetabek. Surabaya dan wilayah Gerbangkertosusila dilayani oleh sebuah bandar udara, yakni Bandar Udara Internasional Juanda yang berada 20 km di sebelah selatan kota, serta dua pelabuhan, yakni Pelabuhan Tanjung Perak dan Pelabuhan Ujung. </item>
+        <item>Kediri dikenal merupakan salah satu pusat produksi gula dan industri rokok terbesar di Indonesia. Perusahaan rokok Gudang Garam berpusat di kota ini. </item>
     </string-array>
 
 </resources>

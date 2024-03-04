@@ -23,11 +23,12 @@
 
         <TextView
             android:id="@+id/title_name"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:text="@string/placeholder_name"
             android:textAppearance="?attr/textAppearanceHeadline5"
+            app:layout_constraintEnd_toStartOf="@id/image_loc"
             app:layout_constraintStart_toStartOf="@id/image_photo"
             app:layout_constraintTop_toBottomOf="@+id/image_photo" />
 
@@ -38,7 +39,9 @@
             app:layout_constraintStart_toEndOf="@id/title_name"
             app:layout_constraintTop_toTopOf="@id/title_name"
             app:layout_constraintBottom_toBottomOf="@id/title_name"
-            android:layout_marginLeft="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
             android:src="@drawable/location"/>
 
         <com.google.android.material.divider.MaterialDivider
@@ -52,11 +55,12 @@
 
         <TextView
             android:id="@+id/second_text"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:text="@string/placeholder_second"
             android:textAppearance="?attr/textAppearanceTitleMedium"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@id/divider"
             app:layout_constraintTop_toBottomOf="@+id/divider" />
 
