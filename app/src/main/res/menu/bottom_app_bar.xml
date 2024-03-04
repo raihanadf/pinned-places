@@ -12,7 +12,7 @@
         android:title="Grid View Toggle"
         app:showAsAction="always"/>
     <item
-        android:id="@+id/about_menu"
+        android:id="@+id/about_page"
         android:icon="@drawable/person"
         android:title="About Person"
         app:showAsAction="always"/>

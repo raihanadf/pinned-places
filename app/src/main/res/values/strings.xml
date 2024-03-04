@@ -1,5 +1,13 @@
 <resources>
     <string name="app_name">Pinned Places</string>
+    <string name="placeholder_name">Aku cinta bunga</string>
+    <string name="placeholder_second">Secondary Text</string>
+    <string name="nama_dicoding">Raihan Achmad</string>
+    <string name="email_dicoding">17radf@gmail.com</string>
+    <string name="bio_dicoding">I created this app for no particular reason, but there are actually 2 reasons. First, for an Android beginner submission. And second, it is a place where I\'ve been through.</string>
+    <string name="share_button">Share Button</string>
+    <string name="placeholder_support">Placeholder Support</string>
+    <string name="placeholder_detail">Placeholder Detail</string>
 
     <!--    location image list, taken from wikipedia -->
     <string-array name="location_image_list">

@@ -31,7 +31,7 @@
                 android:id="@+id/text_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Aku Cinta Bunga"
+                android:text="@string/placeholder_name"
                 android:textAppearance="?attr/textAppearanceTitleMedium"
                 />
             <TextView
@@ -39,7 +39,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="Secondary Text"
+                android:text="@string/placeholder_second"
                 android:textAppearance="?attr/textAppearanceBodyMedium"
                 android:textColor="?android:attr/textColorSecondary"
                 />

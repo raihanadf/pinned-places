@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
                     true
                 }
 
-                R.id.about_menu -> {
+                R.id.about_page -> {
                     startActivity(Intent(this@MainActivity, AboutActivity::class.java))
                     true
                 }

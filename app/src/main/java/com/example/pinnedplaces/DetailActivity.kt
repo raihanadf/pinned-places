@@ -7,6 +7,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import coil.load
 import com.example.pinnedplaces.databinding.ActivityDetailBinding
 import com.example.pinnedplaces.model.Location
 
@@ -30,11 +31,20 @@ class DetailActivity : AppCompatActivity() {
         }
 
         // TODO: Tidy up
-        val text = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+        val data = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
             intent.getParcelableExtra(location_detail, Location::class.java)
         } else {
             intent.getParcelableExtra(location_detail)
         }
-        binding.textTest.text = text?.title
+
+        binding.imagePhoto.load(data?.imgPhoto) {
+            placeholder(R.drawable.loading_img)
+            error(R.drawable.disconnected)
+        }
+        binding.titleName.text = data?.title
+        binding.secondText.text = data?.second
+        binding.supportText.text = data?.support
+        binding.detailText.text = data?.detail
+
     }
 }

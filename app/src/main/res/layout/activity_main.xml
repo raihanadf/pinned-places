@@ -16,7 +16,7 @@
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rv_location"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             tools:listitem="@layout/item_row_location" />
 
     </androidx.core.widget.NestedScrollView>
@@ -35,11 +35,11 @@
         android:id="@+id/share_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="Share Button"
         app:tint="@color/white"
         android:backgroundTint="@color/red"
         app:layout_anchor="@id/bottomAppBar"
-        app:srcCompat="@drawable/share" />
+        app:srcCompat="@drawable/share"
+        android:contentDescription="@string/share_button" />
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
