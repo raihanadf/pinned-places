@@ -2,7 +2,6 @@ package com.example.pinnedplaces
 
 import android.content.Intent
 import android.os.Bundle
-import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -28,6 +27,28 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
+        createShareButton()
+        createMenu()
+
+        showRecyclerView(getData())
+    }
+
+    fun createShareButton() {
+        binding.shareButton.setOnClickListener {
+            val sendIntent = Intent().apply {
+                action = Intent.ACTION_SEND
+                putExtra(
+                    Intent.EXTRA_TEXT,
+                    "please star my junk app: https://github.com/raihanadf/pinned-places/"
+                )
+                putExtra(Intent.EXTRA_TITLE, "\uD83E\uDD7A \uD83E\uDD7A \uD83E\uDD7A")
+                type = "text/plain"
+            }
+            startActivity(Intent.createChooser(sendIntent, null))
+        }
+    }
+
+    fun createMenu() {
         binding.bottomAppBar.setOnMenuItemClickListener { menuItem ->
             when (menuItem.itemId) {
                 R.id.list_menu -> {
@@ -51,11 +72,6 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        binding.shareButton.setOnClickListener {
-
-        }
-
-        showRecyclerView(getData())
     }
 
     fun showRecyclerView(data: ArrayList<Location>) {
