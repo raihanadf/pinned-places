@@ -1,5 +1,6 @@
 package com.example.pinnedplaces
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
@@ -41,8 +42,17 @@ class MainActivity : AppCompatActivity() {
                     true
                 }
 
+                R.id.about_menu -> {
+                    startActivity(Intent(this@MainActivity, AboutActivity::class.java))
+                    true
+                }
+
                 else -> false
             }
+        }
+
+        binding.shareButton.setOnClickListener {
+
         }
 
         showRecyclerView(getData())

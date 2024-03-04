@@ -4,13 +4,16 @@
     <item
         android:id="@+id/list_menu"
         android:icon="@drawable/listview"
-        android:title="IDK"
-        android:contentDescription="IDK"
+        android:title="List View Toggle"
         app:showAsAction="always"/>
     <item
         android:id="@+id/grid_menu"
         android:icon="@drawable/gridview"
-        android:title="IDK"
-        android:contentDescription="IDK"
+        android:title="Grid View Toggle"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/about_menu"
+        android:icon="@drawable/person"
+        android:title="About Person"
         app:showAsAction="always"/>
 </menu>

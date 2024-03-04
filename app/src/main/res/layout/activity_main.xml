@@ -32,9 +32,10 @@
         app:navigationIcon="@drawable/menu" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/share_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="LOL"
+        android:contentDescription="Share Button"
         app:tint="@color/white"
         android:backgroundTint="@color/red"
         app:layout_anchor="@id/bottomAppBar"
