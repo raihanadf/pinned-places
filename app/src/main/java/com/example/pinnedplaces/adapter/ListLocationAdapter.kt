@@ -18,9 +18,6 @@ class ListLocationAdapter(private val listLocation: ArrayList<Location>): Recycl
         val imgPhoto: ImageView = itemView.findViewById(R.id.img_photo)
         val title: TextView = itemView.findViewById(R.id.text_title)
         val second: TextView = itemView.findViewById(R.id.text_second)
-        val support: TextView = itemView.findViewById(R.id.text_support)
-        val btnShare: TextView = itemView.findViewById(R.id.button_share)
-        val btnDetail: TextView = itemView.findViewById(R.id.button_detail)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListLocationViewHolder {
@@ -37,12 +34,6 @@ class ListLocationAdapter(private val listLocation: ArrayList<Location>): Recycl
         }
         holder.title.text = listLocation[position].title
         holder.second.text = listLocation[position].second
-        holder.support.text = listLocation[position].support
-        holder.btnShare.setOnClickListener {
-//            val url: Uri = Uri.parse("https://www.google.com/search?q=${listLocation[position].title}")
-//            val intent = Intent(Intent.ACTION_VIEW, url)
-//            it.context.startActivity(intent)
-        }
         holder.itemView.setOnClickListener {
             val intent = Intent(it.context, DetailActivity::class.java)
             intent.putExtra(DetailActivity.location_detail, listLocation[position])

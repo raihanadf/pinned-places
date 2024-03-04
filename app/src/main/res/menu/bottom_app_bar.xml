@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/list_menu"
+        android:icon="@drawable/listview"
+        android:title="IDK"
+        android:contentDescription="IDK"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/grid_menu"
+        android:icon="@drawable/gridview"
+        android:title="IDK"
+        android:contentDescription="IDK"
+        app:showAsAction="always"/>
+</menu>

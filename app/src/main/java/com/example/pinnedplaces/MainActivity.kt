@@ -1,11 +1,12 @@
 package com.example.pinnedplaces
 
-import android.content.Intent
 import android.os.Bundle
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.example.pinnedplaces.adapter.ListLocationAdapter
@@ -24,6 +25,24 @@ class MainActivity : AppCompatActivity() {
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
+        }
+
+        binding.bottomAppBar.setOnMenuItemClickListener { menuItem ->
+            when (menuItem.itemId) {
+                R.id.list_menu -> {
+                    binding.rvLocation.layoutManager =
+                        StaggeredGridLayoutManager(2, LinearLayoutManager.VERTICAL)
+                    true
+                }
+
+                R.id.grid_menu -> {
+                    binding.rvLocation.layoutManager =
+                        GridLayoutManager(this, 3)
+                    true
+                }
+
+                else -> false
+            }
         }
 
         showRecyclerView(getData())
