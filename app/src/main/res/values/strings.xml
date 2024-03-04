@@ -1,3 +1,39 @@
 <resources>
     <string name="app_name">Pinned Places</string>
+
+    <!--    location image list, taken from wikipedia -->
+    <string-array name="location_image_list">
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Slamet_Riyadi_Statue_in_Surakarta.jpg/432px-Slamet_Riyadi_Statue_in_Surakarta.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Yogyakarta_Indonesia_Tugu-Yogyakarta-02.jpg/402px-Yogyakarta_Indonesia_Tugu-Yogyakarta-02.jpg</item>
+        <item>https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2</item>
+    </string-array>
+
+    <!--    location title name -->
+    <string-array name="location_title_list">
+        <item>Solo</item>
+        <item>Jogja</item>
+        <item>Audi R8</item>
+    </string-array>
+
+    <!--    second text for the location-->
+    <string-array name="location_second_list">
+        <item>bolobolo</item>
+        <item>jir takut</item>
+        <item>dayummm</item>
+    </string-array>
+
+    <!--    support text for list-->
+    <string-array name="location_support_list">
+        <item>mamah aku takut</item>
+        <item>lmao kang lorem ipsum dolor sit jamet met met lorem dolor jaran</item>
+        <item>so smexy</item>
+    </string-array>
+
+    <!--    detail location for the list-->
+    <string-array name="location_detail_list">
+        <item>disini aku ketemu sama bunga</item>
+        <item>mamah juga takut</item>
+        <item>disini aku ketemu sama bunga</item>
+    </string-array>
+
 </resources>
